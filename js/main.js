@@ -17,7 +17,7 @@ var menu = document.querySelector('.header');
 menuButton.addEventListener('click', function(){
   menuButton.classList.toggle('menu-button-active');
   menu.classList.toggle('header-active');
-})
+});
 
 
 let arrLang = {
@@ -77,4 +77,4 @@ $(function(){
          $(this).text(arrLang[lang][$(this).attr('key')]);
      }); 
   });
-})
+});
